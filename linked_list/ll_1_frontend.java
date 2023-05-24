@@ -25,6 +25,7 @@ public class ll_1_frontend {
 		System.out.println("First item is = " + ll.getFirst());
 		System.out.println("Last item is = " + ll.getLast());
 		System.out.println();
+		System.out.println("Adding the new elements using the user input ");
 		System.out.println("Taking input using loop = ");
 		for (int i = 0; i < 5; i++) 
 		{

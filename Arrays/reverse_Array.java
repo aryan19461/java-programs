@@ -1,10 +1,11 @@
 package Arrays;
-
+import java.util.Arrays;
 public class reverse_Array {
 
 	public static void main(String[] args) {
 		
-		int arr[] = {1,2,3,4};
+		int arr[] = {1,10,2,3,4,20,30,50};
+		Arrays.sort(arr);
 		reverse(arr);
 	}
 	public static void reverse(int arr[]) 

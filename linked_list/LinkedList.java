@@ -8,7 +8,7 @@ public class LinkedList {
 			Node next;
 		}
 	private Node Head;  // 1st element is stored in head
-	private Node tail; // lsat element is stored in tail
+	private Node tail; // last element is stored in tail
 	private int size;
 			
 //Adding item from starting	
@@ -93,7 +93,7 @@ public class LinkedList {
 
 	public int removelast() throws Exception {
 		if (size == 0) {
-			throw new Exception("BkLol is Linked empty hai");
+			throw new Exception("LinkedList is Empty");
 		}
 		if (size == 1) {
 			return removefirst();
